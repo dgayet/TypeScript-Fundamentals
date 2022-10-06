@@ -64,4 +64,5 @@ let person1: Person = {
     sayBye: (name2: string) => `Bye ${name2}, ${person1.name} greets you`,
 };
 
-console.log(person1.sayHi('Laura'))
+console.log(person1.sayHi('Laura'));
+console.log(person1.sayBye('Abel'));
