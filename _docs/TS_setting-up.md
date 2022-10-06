@@ -32,6 +32,12 @@ Esto va a crear un archivo de Javascript con el mismo nombre.
 
 * Typescript reporta los errores en el editor de texto, pero compila independientemente de si haya errores o no.
 
+## Ejecución 
+
+Para correr el programa, se ejecuta el siguiente comando sobre el archivo generado en javascript:
+
+`node file.js`
+
 
 ## Archivo de configuración
 
@@ -70,3 +76,5 @@ Para compilar según el archivo de configuración: `tsc` o `tsc -w` para mirar l
 
 Si en vez se especifica el input file `tsc file`, se ignora el archivo de configuración.
 
+
+[Volver al menú principal](../README.md)
