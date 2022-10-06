@@ -1,4 +1,5 @@
 # Tipos de datos
+[Volver al menú principal](../README.md)
 
 ## Primitive
 
