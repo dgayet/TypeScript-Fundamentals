@@ -66,3 +66,7 @@ let person1: Person = {
 
 console.log(person1.sayHi('Laura'));
 console.log(person1.sayBye('Abel'));
+
+// Functions basics
+
+

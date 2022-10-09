@@ -41,3 +41,4 @@ var person1 = {
 };
 console.log(person1.sayHi('Laura'));
 console.log(person1.sayBye('Abel'));
+// Functions basics
