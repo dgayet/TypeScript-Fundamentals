@@ -4,13 +4,13 @@
 Ejemplo: 
 
 ```ts
-// src/hello.ts
-export function sayHi() {
-  console.log('Hello there!');
+// src/file1.ts
+export function func() {
+  console.log('Hello world');
 }
 
 // src/script.ts
-import { sayHi } from './hello.js';
+import { func } from './file1.js';
 
-sayHi(); // Hello there!
+func(); // Hello World
 ```
