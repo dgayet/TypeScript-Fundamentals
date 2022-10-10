@@ -138,4 +138,81 @@ console.log(sayStuff.sayHi('Den'));
 console.log(sayStuff.sayBye('Den'));
 ```
 
+## Type Aliases
+
+Se utilizan para reducir la duplicación de código, son similares a las `interface`.
+
+```ts
+type StringOrNumber = string | number
+
+type PersonObject = {
+    name: string;
+    id: StringOrNumber
+}
+```
+
+### Interfaces vs Type Aliases
+
+## The DOM and type casting
+
+## Classes
+
+La sintaxis es de la siguiente manera:
+
+```ts
+class Person {
+    // attributes
+    name: string;
+    age: number;
+    isStudent: boolean;
+
+    // methods
+    constructor(n: string, a: number, s: boolean) {
+        this.name = n;
+        this.age = a;
+        this.isStudent = s;
+    }
+
+    sayHello() {
+        return 'Hi, my name is ${this.name} and I am ${this.age} years old'
+    }
+}
+
+const person1 = new Person('Den', 24, true);
+console.log(person1.sayHello());
+```
+
+A las propiedades de una clase se le pueden agregar modificadores:
+
+* `readonly`: la propiedad es inmutable, solo se puede leer
+* `private`: solo se puede acceder/modificar dentro de la clase
+* `protected`: las pueden acceder/modificar la clase y sus subclases
+* `public`: se pueden acceder y modificar en cualquier lugar
+
+
+### composición de clases
+
+Se puede utilizar el modificador `extends`, de la siguiente manera:
+
+```ts
+class Programmer extends Person {
+    programmingLanguages: string[];
+
+    constructor(
+    name: string,
+    isCool: boolean,
+    email: string,
+    pets: number,
+    pL: string[]
+  ) {
+    // The super call must supply all parameters for base (Person) class, as the constructor is not inherited.
+    super(name, isCool, email, pets);
+    this.programmingLanguages = pL;
+  }
+}
+```
+
+### interfaces en clases
+
+
 [Volver al menú principal](../README.md)
