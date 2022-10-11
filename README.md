@@ -9,6 +9,7 @@ Esta guía es un tutorial muy básico para dar los primeros pasos en Typescript.
 ## Index.
 
 1. [Configuración y primeros pasos](./_docs/TS_setting-up.md)
-2. [Tipos de datos](./_docs/TS_types.md)
-3. [Funciones](./_docs/TS_functions.md)
-4. [Módulos](./_docs/TS_modules.md)
+2. [Node.js](./_docs/TS_nodejs.md)
+3. [Tipos de datos](./_docs/TS_types.md)
+4. [Funciones](./_docs/TS_functions.md)
+5. [Módulos](./_docs/TS_modules.md)
