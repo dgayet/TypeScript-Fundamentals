@@ -49,5 +49,10 @@ Los objetos Global están disponibles en todos los modulos. Son funciones, modul
 * `__filename`: nombre de la aplicación
 * `require`: se usa para importar modulos, archivos locales, y JSON
 
+## Node como REPL
+Node se puede utilizar como un Read-Evaluate-Print-Loop. Esto te permite ejecutar comandos de Javscript en la terminal.
+
+Para utilizar Node de manera interactiva se debe correr el comando `node` en la terminal.
+
 [Volver al menú principal](../README.md)
 
